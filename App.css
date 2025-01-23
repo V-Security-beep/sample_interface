@@ -1,0 +1,31 @@
+/* App-wide container styles */
+.app-container {
+  background-color: #f4f4f9; /* Light background color */
+  min-height: 200vh;       /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px;
+  font-family: 'Roboto', sans-serif; /* Clean modern font */
+  color: #333;
+  margin: 0;
+}
+
+/* Ensure global consistency for text */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Link styling reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button or focus elements */
+button, input, select {
+  font-family: inherit;
+}
